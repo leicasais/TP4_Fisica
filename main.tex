@@ -1,37 +1,55 @@
 \documentclass[a4paper,12pt]{article}
-\usepackage{graphicx} % Required for inserting images
-\usepackage[spanish]{babel}   % pone todo en español
-\usepackage{hyperref}         % opcional (links clickeables)
+
+% Idioma
+\usepackage[spanish]{babel}
+
+% Imágenes y figuras
 \usepackage{graphicx}
-\usepackage{pgfplots}
-\pgfplotsset{compat=1.18}
-\usepackage[table]{xcolor}
 \usepackage{float}
 \usepackage{placeins}
-\usepackage{hyperref}
 \usepackage{caption}
-\usepackage{circuitikz}
+
+% Matemática
 \usepackage{amsmath}
+
+% Circuitos y gráficos
+\usepackage{siunitx}
 \usepackage{tikz}
-\usetikzlibrary{fit, backgrounds}
+\usepackage{circuitikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
 
+\usetikzlibrary{
+    fit,
+    quotes,
+    backgrounds,
+    calc
+}
+
+% Tablas
 \usepackage{booktabs}
-\usepackage{colortbl}
-\usepackage{xcolor}
 \usepackage{array}
+\usepackage[table]{xcolor}
 
+% Definición de los colores utilizados en las tablas
+\definecolor{headercolor}{HTML}{C2185B}
+\definecolor{rowcolor}{HTML}{FCE4EC}
 
+% Enlaces clickeables
+\usepackage{hyperref}
+
+%Organizacion del documento
 \begin{document}
 
-\input{Carátula}
+\input{Caratula}
 
 \tableofcontents
 
 \newpage
 
-\input{Media_onda}
+\input{media_onda}
 
-\input{Onda_completa}
+\input{onda_completa}
 
 \input{anexos}
 
