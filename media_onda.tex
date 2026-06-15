@@ -1,4 +1,3 @@
-
 \section{Rectificador de media onda}
 
 \subsection{Instrumentos y componentes utilizados}
@@ -14,35 +13,25 @@
     $R_{\lim}=4{,}7\ \Omega$.
     \item Resistencia de carga de valor nominal
     $R_L=100\ \Omega$.
-    \item Tres capacitores electrolíticos: $C_1 =100\ \mu\mathrm{F}$, $C_2 =220\ \mu\mathrm{F}$, $C_3 =2200\ \mu\mathrm{F}$.
+    \item Tres apacitores electrolíticos: $C_1 =100\ \mu\mathrm{F}$, $C_2 =220\ \mu\mathrm{F}$, $C_3 =2200\ \mu\mathrm{F}$.
     \item Cables para el conexionado.
 \end{itemize}
 
 
 \subsection{Objetivos}
 
-El objetivo de esta experiencia fue estudiar experimentalmente el
-funcionamiento de un circuito rectificador de media onda.
+El objetivo de esta experiencia fue estudiar experimentalmente el funcionamiento de un circuito rectificador de media onda.
 
 En particular, se buscó observar la señal de salida sobre la resistencia obtenida a partir
-de una entrada sinusoidal,$V_S$.  Luego utilizando el osciloscopio y el multímetro determinar las caracteristicas del circuito y estudiar la modificación de la tensión de salida al
-incorporar capacitores de filtrado de diferentes capacidades.
+de una entrada sinusoidal,$V_S$.  Luego, utilizando el osciloscopio y el multímetro, determinar las características del circuito y estudiar la modificación de la tensión de salida al incorporar capacitores de filtrado de diferentes capacidades.
 
-Además, se midió la amplitud pico a pico del rizado para cada capacitor
-y se calculó analíticamente el factor de rizado correspondiente a la
-señal de salida sin capacitor.
+Además, se midió la amplitud pico a pico del rizado para cada capacitor y se calculó analíticamente el factor de rizado correspondiente a la señal de salida sin capacitor.
 
 \subsection{Desarrollo experimental}
 
-Para esta experiencia se implementó un circuito rectificador de media
-onda. Como medidas de protección, se conectaron antes del diodo un fusible y
-una resistencia limitadora de corriente $R_{\lim}$. El fusible permite
-interrumpir el circuito ante una corriente excesiva, mientras que la
-resistencia $R_{\lim}$ limita la corriente máxima que puede circular por
-el circuito.
+Para esta experiencia se implementó un circuito rectificador de media onda. Como medidas de protección, se conectaron antes del diodo un fusible y una resistencia limitadora de corriente $R_{\lim}$. El fusible permite interrumpir el circuito ante una corriente excesiva, mientras que la resistencia $R_{\lim}$ limita la corriente máxima que puede circular por el circuito.
 
-Inicialmente se armó el circuito rectificador de media onda sin conectar
-el capacitor de filtrado como se ve en el esquemático de la Figura \ref{fig:rectificador_media_onda}.
+Inicialmente se armó el circuito rectificador de media onda sin conectar el capacitor de filtrado como se ve en el esquemático de la Figura \ref{fig:rectificador_media_onda}.
 
 \begin{figure}[H]
     \centering
@@ -60,8 +49,7 @@ el capacitor de filtrado como se ve en el esquemático de la Figura \ref{fig:rec
     \label{fig:rectificador_media_onda}
 \end{figure}
 
-Luego se conectaron en paralelo con la resistencia de carga
-los capacitores de a uno por vez, como se puede ver en el esquemático de la Figura \ref{fig:rectificador_media_onda_cap}.
+Luego se conectaron en paralelo con la resistencia de carga los capacitores de a uno por vez, como se puede ver en el esquemático de la Figura \ref{fig:rectificador_media_onda_cap}.
 
 \begin{figure}[H]
     \centering
@@ -87,20 +75,14 @@ los capacitores de a uno por vez, como se puede ver en el esquemático de la Fig
     \label{fig:rectificador_media_onda_cap}
 \end{figure}
 
-Para cada configuración Se conectó un canal del osciloscopio a la salida, sobre la resistencia de carga. De esta manera se
-observo la señal
-rectificada de salida. Ademas, se registró la amplitud pico a pico del rizado,
-el valor medio indicado por el osciloscopio y la tensión continua medida
+Para cada configuración se conectó un canal del osciloscopio a la salida, sobre la resistencia de carga. De esta manera se observó la señal rectificada de salida. Además, se registró la amplitud pico a pico del rizado, el valor medio indicado por el osciloscopio y la tensión continua medida
 con el multímetro.
 
-Al utilizar capacitores electrolíticos se respetó su polaridad,
-conectando el terminal positivo al nodo positivo de la salida y el
-terminal negativo al nodo de referencia del circuito.
+Al utilizar capacitores electrolíticos, se respetó su polaridad, conectando el terminal positivo al nodo positivo de la salida y el terminal negativo al nodo de referencia del circuito.
 
 \subsection{Datos obtenidos}
 
-Antes de realizar las mediciones de la tensión de salida se verificaron
-los valores de la fuente y de las resistencias utilizadas.
+Antes de realizar las mediciones de la tensión de salida, se verificaron los valores de la fuente y de las resistencias utilizadas.
 
 Los valores nominales y medidos se presentan en el Cuadro
 \ref{tab:parametros_media_onda}.
@@ -146,13 +128,11 @@ Los valores nominales y medidos se presentan en el Cuadro
 
     \end{tabular}
 
-    \caption{Valores nominales y medidos de los componentes utilizados
-    en el rectificador de media onda.}
+    \caption{Valores nominales y medidos de los componentes utilizados en el rectificador de media onda.}
     \label{tab:parametros_media_onda}
 \end{table}
 
-Las mediciones realizadas sobre la salida del rectificador se presentan
-en el Cuadro \ref{tab:mediciones_media_onda}.
+Las mediciones realizadas sobre la salida del rectificador se presentan en el Cuadro \ref{tab:mediciones_media_onda}.
 
 \begin{table}[H]
     \centering
@@ -214,20 +194,14 @@ en el Cuadro \ref{tab:mediciones_media_onda}.
     \label{tab:mediciones_media_onda}
 \end{table}
 
-En el Cuadro \ref{tab:mediciones_media_onda}, $V_{pp}$ corresponde a la
-amplitud pico a pico de la señal de salida o del rizado,
-$V_{\mathrm{medio}}$ corresponde al valor medio indicado por el
-osciloscopio y $V_{\mathrm{DC}}$ corresponde a la tensión medida con el
-multímetro en la escala de continua.
+En el Cuadro \ref{tab:mediciones_media_onda}, $V_{pp}$ corresponde a la amplitud pico a pico de la señal de salida o del rizado, $V_{\mathrm{medio}}$ corresponde al valor medio indicado por el osciloscopio y $V_{\mathrm{DC}}$ corresponde a la tensión medida con el
+multímetro en la escala continua.
 
-\subsection{Analisis de la salida del circuito sin capacitor}
+\subsection{Análisis de la salida del circuito sin capacitor}
 
 \subsubsection{Amplitud cero a pico}
 
-En el rectificador de media onda sin capacitor, el valor mínimo de la
-señal de salida es aproximadamente igual a cero. Por lo tanto, la
-amplitud pico a pico coincide aproximadamente con la amplitud cero a
-pico:
+En el rectificador de media onda sin capacitor, el valor mínimo de la señal de salida es aproximadamente igual a cero. Por lo tanto, la amplitud pico a pico coincide aproximadamente con la amplitud cero a pico:
 
 \begin{equation}
     V_{op}\approx V_{pp}.
@@ -239,22 +213,18 @@ A partir de la medición realizada con el osciloscopio se obtuvo:
     V_{op}=V_{pp}=16{,}0\ \mathrm{V}.
 \end{equation}
 
-Por otro lado, considerando el valor eficaz medido de la fuente,
-$V_S=13\ \mathrm{V_{RMS}}$, su amplitud pico ideal es:
+Por otro lado, considerando el valor eficaz medido de la fuente, $V_S=13\ \mathrm{V_{RMS}}$, su amplitud pico ideal es:
 
 \begin{align*}
     V_{S,p}
     &=V_S\sqrt{2}\ =18{,}38\ \mathrm{V}.
 \end{align*}
 
-La amplitud de salida resulta menor que el pico de la fuente debido a
-la caída de tensión en el diodo y en la resistencia limitadora
-$R_{\min}$.
+La amplitud de salida resulta menor que el pico de la fuente debido a la caída de tensión en el diodo y en la resistencia limitadora $R_{\min}$.
 
 \subsubsection{Valor eficaz de la tensión de salida}
 
-La tensión de salida del rectificador de media onda sin capacitor puede
-expresarse como:
+La tensión de salida del rectificador de media onda sin capacitor puede expresarse como:
 
 \begin{equation}
     v_o(t)=
@@ -292,10 +262,7 @@ Por lo tanto:
     \boxed{V_{\mathrm{RMS}}=8{,}0\ \mathrm{V}}.
 \end{equation}
 
-El valor calculado como $V_{RMS}$ no reprecenta lo mismo que el valor registrado mediante el multímetro, por lo que da valores significativamente diferentes. EL voltaje con el multímetro fue medido en la escala de
-tensión continua. En consecuencia, este valor representa la componente
-continua o valor medio de la señal de salida, y no el valor eficaz total
-de la señal.
+El valor calculado como $V_{RMS}$ no representa lo mismo que el valor registrado mediante el multímetro, por lo que da valores significativamente diferentes. EL voltaje con el multímetro fue medido en la escala de tensión continua. En consecuencia, este valor representa la componente continua o valor medio de la señal de salida, y no el valor eficaz total de la señal.
 
 \subsubsection{Valor medio de la tensión de salida}
 
@@ -324,7 +291,7 @@ Reemplazando el valor de la amplitud cero a pico:
     \boxed{V_{\mathrm{medio,teo}}=5{,}09\ \mathrm{V}}.
 \end{equation}
 
-Por otro lado el valor medido mediante el multímetro en la escala de continua fue de $5{,}07 \ \mathrm{V}$ y el valor medio registrado mediante el osciloscopio fue de $4{,}85\ \mathrm{V}$. La diferencia porcentual entre el valor medio teórico y el valor medido practico en cada caso se calculó mediante al ecuación:
+Por otro lado, el valor medido mediante el multímetro en la escala continua fue de $5{,}07 \ \mathrm{V}$ y el valor medio registrado mediante el osciloscopio fue de $4{,}85\ \mathrm{V}$. La diferencia porcentual entre el valor medio teórico y el valor medido práctico en cada caso se calculó mediante la ecuación:
 
 \begin{equation}
     \varepsilon_{\mathrm{mult}}
@@ -339,15 +306,14 @@ Por otro lado el valor medido mediante el multímetro en la escala de continua f
     \cdot100.
 \end{equation}
 
-La diferencia porcentual entre el valor medio teorico y el medido con el multimetro es de $0{,}45\%$, Esta pequeña discrepancia puede asociarse a la precisión de los instrumentos, a las tolerancias de los componentes y a que el modelo teórico considera un diodo y una fuente ideales.
+La diferencia porcentual entre el valor medio teórico y el medido con el multímetro es de $0{,}45\%$. Esta pequeña discrepancia puede asociarse a la precisión de los instrumentos, a las tolerancias de los componentes y a que el modelo teórico considera un diodo y una fuente ideales.
 
 Por otra parte, la diferencia entre el valor teórico y el valor medio indicado por el osciloscopio fue de $4{,}72\%$. Esta diferencia no debe atribuirse exclusivamente a la precisión del osciloscopio, sino también a que la señal experimental no es una media sinusoide ideal. La tensión umbral del diodo, la resistencia limitadora, la impedancia interna de la fuente y la resistencia de carga pueden modificar la forma de onda.
 
 
 \subsubsection{Factor de rizado}
 
-La señal de salida, $v_o(t)$, puede interpretarse como la suma de una
-componente continua y una componente variable o de rizado:
+La señal de salida, $v_o(t)$, puede interpretarse como la suma de una componente continua y una componente variable o de rizado:
 
 \begin{equation}
     v_o(t)
@@ -357,8 +323,7 @@ componente continua y una componente variable o de rizado:
     v_{\mathrm{rizado}}(t).
 \end{equation}
 
-El valor eficaz total de la señal se relaciona con su componente
-continua y con el valor eficaz de la componente de rizado mediante:
+El valor eficaz total de la señal se relaciona con su componente continua y con el valor eficaz de la componente de rizado mediante:
 
 \begin{equation}
     V_{\mathrm{RMS}}^2
@@ -368,8 +333,7 @@ continua y con el valor eficaz de la componente de rizado mediante:
     V_{\mathrm{rizado,RMS}}^2.
 \end{equation}
 
-Por lo tanto, el valor eficaz de la componente de rizado puede
-calcularse como:
+Por lo tanto, el valor eficaz de la componente de rizado puede calcularse como:
 
 \begin{equation}
     V_{\mathrm{rizado,RMS}}
@@ -381,8 +345,7 @@ calcularse como:
     }.
 \end{equation}
 
-El factor de rizado se define como la relación entre el valor eficaz de
-la componente alterna y el valor de la componente continua:
+El factor de rizado se define como la relación entre el valor eficaz de la componente alterna y el valor de la componente continua:
 
 \begin{equation}
     r
@@ -394,24 +357,15 @@ la componente alterna y el valor de la componente continua:
     }.
 \end{equation}
 
-Utilizando el valor medio registrado por el osciloscopio,
- ,$4{,}85\ \mathrm{V}$, y el valor eficaz
-calculado previamente, $8{,}0\ \mathrm{V}$, se obtiene $V_{\mathrm{rizado,RMS,osc}} =6{,}36\ \mathrm{V}$. En consecuencia, el factor de rizado estimado a partir de la medición
+Utilizando el valor medio registrado por el osciloscopio, $4{,}85\ \mathrm{V}$, y el valor eficaz calculado previamente, $8{,}0\ \mathrm{V}$, se obtiene $V_{\mathrm{rizado,RMS,osc}} =6{,}36\ \mathrm{V}$. En consecuencia, el factor de rizado estimado a partir de la medición
 del osciloscopio,$r_{\mathrm{osc}}$, resulta  $1{,}31$. 
 
-Por otro lado, utilizando el valor medio medido con el multímetro
-digital, $5{,}07\ \mathrm{V}$, se obtiene $V_{\mathrm{rizado,RMS,mult}}=6{,}18\ \mathrm{V}$. 
-Por lo tanto $r_{\mathrm{mult}}=1{,}22$ .
+Por otro lado, utilizando el valor medio medido con el multímetro digital, $5{,}07\ \mathrm{V}$, se obtiene $V_{\mathrm{rizado,RMS,mult}}=6{,}18\ \mathrm{V}$. Por lo tanto $r_{\mathrm{mult}}=1{,}22$ .
 
-En ambos casos el factor de rizado es mayor que uno. Esto indica que el
-valor eficaz de la componente alterna o de rizado es mayor que el valor
-de la componente continua de la señal de salida. Por lo tanto, la salida
-del rectificador de media onda sin capacitor presenta una componente
-variable considerable y se encuentra alejada de una tensión continua
+En ambos casos el factor de rizado es mayor que uno. Esto indica que el valor eficaz de la componente alterna o de rizado es mayor que el valor de la componente continua de la señal de salida. Por lo tanto, la salida del rectificador de media onda sin capacitor presenta una componente variable considerable y se encuentra alejada de una tensión continua
 constante.
 
-La proporción de la potencia de salida asociada a la componente
-continua puede estimarse mediante:
+La proporción de la potencia de salida asociada a la componente continua puede estimarse mediante:
 
 \begin{equation}
     \eta
@@ -422,21 +376,148 @@ continua puede estimarse mediante:
     {V_{\mathrm{RMS}}^2}.
 \end{equation}
 
-Utilizando el valor medio medido con el multímetro $\eta_{\mathrm{mult}}=0{,}402$ . Por lo tanto, aproximadamente el $40{,}2\%$ de la potencia total de salida se encuentra asociada a la componente continua, mientras que el $59{,}8\%$ restante corresponde a la componente de rizado. 
-Utilizando el valor medio indicado por el osciloscopio $\eta_{\mathrm{osc}}=0{,}368$. En este caso, la proporción estimada de potencia continua resulta del
-$36{,}8\%$.
+Utilizando el valor medio medido con el multímetro $\eta_{\mathrm{mult}}=0{,}402$ . Por lo tanto, aproximadamente el $40{,}2\%$ de la potencia total de salida se encuentra asociada a la componente continua, mientras que el $59{,}8\%$ restante corresponde a la componente de rizado.  Utilizando el valor medio indicado por el osciloscopio $\eta_{\mathrm{osc}}=0{,}368$. En este caso, la proporción estimada de potencia continua resulta del $36{,}8\%$.
 
-La diferencia entre ambos valores no indica que el circuito haya tenido
-pérdidas distintas durante cada medición, ya que ambos instrumentos
-analizaron la misma señal. La discrepancia surge de la diferencia entre
-los valores medios registrados por cada instrumento y de las
-condiciones particulares de cada método de medición.
+La diferencia entre ambos valores no indica que el circuito haya tenido pérdidas distintas durante cada medición, ya que ambos instrumentos analizaron la misma señal. La discrepancia surge de la diferencia entre los valores medios registrados por cada instrumento y de las condiciones particulares de cada método de medición.
 
 Por lo tanto, menos del $40{,}5\%$ de la potencia de salida de un rectificador de media onda sin filtrado corresponde a su componente continua. Esto implica que, si el objetivo es alimentar una carga exclusivamente con corriente continua, más de la mitad de la potencia de salida se encuentra asociada a la componente alterna o de rizado y no resulta útil para dicho propósito. 
 
+En conclusión, el factor de rizado obtenido para el rectificador de media onda sin capacitor es mayor que la unidad, lo que indica que la componente alterna de la señal de salida supera a la componente continua. Esto implica que el rectificador de media onda sin filtrado es energéticamente ineficiente: menos del $40\%$ de la potencia total de salida corresponde a la componente continua útil, mientras que el resto se encuentra asociado al rizado. Esta ineficiencia es una consecuencia directa de que el circuito aprovecha únicamente el semiciclo positivo de la señal de entrada, desperdiciando la energía del semiciclo negativo. Por lo tanto, sin el agregado de un capacitor de filtrado, el rectificador de media onda no resulta adecuado para aplicaciones que requieran una fuente de tensión continua estable.
 
-\subsection{Analisis de la salida del circuito con capacitor}
-Hacer el inciso 2, 3, 4, 5
+
+
+\subsection{Análisis de la salida del circuito con capacitor}
+
+
+
+Al incorporar capacitores electrolíticos en paralelo con la resistencia de carga, la señal de salida del rectificador se modifica notablemente. En el Cuadro 2 se observa que, a medida que aumenta la capacitancia, la amplitud pico a pico del rizado disminuye de forma sistemática y la tensión continua medida con el multímetro aumenta.
+
+\subsubsection{Relación entre rizado y capacitancia}
+
+Existe una relación inversamente proporcional entre la amplitud del rizado y la capacitancia del capacitor. Esto se debe al principio de funcionamiento del capacitor como elemento almacenador de carga. Durante el semiciclo positivo, cuando el diodo conduce, el capacitor se carga hasta la tensión pico de la señal rectificada. Durante el semiciclo negativo, cuando el diodo deja de conducir, el capacitor se descarga a través de la resistencia de carga, sosteniendo la tensión de salida. La velocidad de descarga está determinada por la constante de tiempo $\tau = R_L C$. Para capacitores de mayor capacitancia, $\tau$ es mayor, lo que implica que el capacitor se descarga más lentamente y la tensión de salida no decae significativamente antes del siguiente pulso. En consecuencia, el rizado es menor. Por el contrario, para capacitores pequeños, $\tau$ es reducido, la descarga es rápida y la tensión cae considerablemente entre pulsos, resultando en un rizado mayor.
+
+Esto se verifica cuantitativamente en los datos obtenidos. Para $C_1 = 100\,\mu\text{F}$ se obtuvo $V_{pp} = 13{,}2\,\text{V}$, para $C_2 = 220\,\mu\text{F}$ resultó $V_{pp} = 9{,}0\,\text{V}$, y para $C_3 = 2200\,\mu\text{F}$ se obtuvo $V_{pp} = 1{,}5\,\text{V}$. La reducción entre $C_2$ y $C_3$, que difieren en un orden de magnitud, es aproximadamente proporcional a dicha diferencia, lo cual es consistente con el modelo teórico donde el rizado es aproximadamente inversamente proporcional a $C$.
+
+\subsubsection{Capacitor de filtrado}
+
+El capacitor recibe el nombre de capacitor de filtrado porque actúa como un filtro sobre la señal rectificada. La salida del rectificador puede interpretarse como la superposición de una componente continua y una componente alterna de rizado, tal como se expresó en la ecuación (9). El capacitor presenta una impedancia $Z_C = 1/(\omega C)$ que disminuye con la frecuencia. Para la componente continua ($f = 0$), su impedancia es idealmente infinita y no la afecta. Para la componente alterna del rizado ($f = 50\,\text{Hz}$), su impedancia es baja, por lo que la atenúa eficazmente. De esta manera, el capacitor filtra la componente alterna del rizado, dejando pasar predominantemente la componente continua hacia la carga.
+
+\subsubsection{Efecto sobre la carga: el cooler}
+
+Al reemplazar la resistencia por el cooler y variar la capacitancia, se observó que la velocidad de rotación aumentaba con la capacitancia. Esto se debe a que un capacitor de mayor capacitancia almacena más carga y sostiene mejor la tensión durante los intervalos en que el diodo no conduce. Como consecuencia, la tensión media en la salida es mayor, lo que se traduce en una mayor corriente disponible para alimentar el cooler y, por lo tanto, en una mayor velocidad de rotación.
+
+Este comportamiento se ve respaldado directamente por los valores de tensión continua medidos con el multímetro en escala DC, que representan la componente continua media de la señal de salida. Como se observa en el Cuadro 2, dicha tensión aumenta progresivamente con la capacitancia: $5{,}07\,\text{V}$ sin capacitor, $8{,}75\,\text{V}$ con $C_1$, $11{,}00\,\text{V}$ con $C_2$ y $12{,}90\,\text{V}$ con $C_3$. El incremento de la tensión continua disponible explica directamente el aumento en la velocidad del cooler, ya que una tensión mayor implica una mayor potencia entregada a la carga.
+
+
+\subsection{Graficos}
+
+\begin{figure}[H]
+    \centering
+    \begin{tikzpicture}
+        \begin{axis}[
+            width=\textwidth,
+            height=6cm,
+            xlabel={Tiempo [ms]},
+            ylabel={Tensión [V]},
+            title={Rectificador de media onda --- Sin capacitor},
+            grid=both,
+            grid style={line width=0.3pt, draw=gray!30},
+            xmin=0, xmax=80,
+            ymin=-1, ymax=18,
+            xtick distance=20,
+            ytick distance=5,
+            tick label style={font=\small},
+            label style={font=\small},
+            title style={font=\normalsize\bfseries},
+        ]
+        \addplot[color=magenta!70!black, line width=0.8pt]
+            table[col sep=comma, x=tiempo, y=voltaje]{CSV/media onda/sin_capacitor.csv};
+        \end{axis}
+    \end{tikzpicture}
+    \caption{Tensión de salida del rectificador de media onda sin capacitor de filtrado.}
+    \label{fig:sin_capacitor}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{tikzpicture}
+        \begin{axis}[
+            width=\textwidth,
+            height=6cm,
+            xlabel={Tiempo [ms]},
+            ylabel={Tensi\'on [V]},
+            title={Rectificador de media onda --- $C_1 = 100\,\mu$F},
+            grid=both,
+            grid style={line width=0.3pt, draw=gray!30},
+            xmin=0, xmax=80,
+            ymin=-1, ymax=18,
+            xtick distance=20,
+            ytick distance=5,
+            tick label style={font=\small},
+            label style={font=\small},
+            title style={font=\normalsize\bfseries},
+        ]
+        \addplot[color=magenta!70!black, line width=0.8pt]
+            table[col sep=comma, x=tiempo, y=voltaje]{CSV/media onda/C1_100uF.csv};
+        \end{axis}
+    \end{tikzpicture}
+    \caption{Tensi\'on de salida del rectificador de media onda con $C_1 = 100\,\mu$F.}
+    \label{fig:c1_100uF}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{tikzpicture}
+        \begin{axis}[
+            width=\textwidth,
+            height=6cm,
+            xlabel={Tiempo [ms]},
+            ylabel={Tensi\'on [V]},
+            title={Rectificador de media onda --- $C_2 = 220\,\mu$F},
+            grid=both,
+            grid style={line width=0.3pt, draw=gray!30},
+            xmin=0, xmax=80,
+            ymin=5, ymax=18,
+            xtick distance=20,
+            ytick distance=5,
+            tick label style={font=\small},
+            label style={font=\small},
+            title style={font=\normalsize\bfseries},
+        ]
+        \addplot[color=magenta!70!black, line width=0.8pt]
+            table[col sep=comma, x=tiempo, y=voltaje]{CSV/media onda/C2_220uF.csv};
+        \end{axis}
+    \end{tikzpicture}
+    \caption{Tensi\'on de salida del rectificador de media onda con $C_2 = 220\,\mu$F.}
+    \label{fig:c2_220uF}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{tikzpicture}
+        \begin{axis}[
+            width=\textwidth,
+            height=6cm,
+            xlabel={Tiempo [ms]},
+            ylabel={Tensi\'on [V]},
+            title={Rectificador de media onda --- $C_3 = 2200\,\mu$F},
+            grid=both,
+            grid style={line width=0.3pt, draw=gray!30},
+            xmin=0, xmax=180,
+            ymin=10, ymax=15,
+            xtick distance=40,
+            ytick distance=1,
+            tick label style={font=\small},
+            label style={font=\small},
+            title style={font=\normalsize\bfseries},
+        ]
+        \addplot[color=magenta!70!black, line width=0.8pt]
+            table[col sep=comma, x=tiempo, y=voltaje]{CSV/media onda/C3_2200uF.csv};
+        \end{axis}
+    \end{tikzpicture}
+    \caption{Tensi\'on de salida del rectificador de media onda con $C_3 = 2200\,\mu$F.}
+    \label{fig:c3_2200uF}
+\end{figure}
+
 
 \newpage
-
