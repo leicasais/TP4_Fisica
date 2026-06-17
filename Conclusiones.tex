@@ -1,0 +1,8 @@
+\section{Conclusiones}
+Tras la realización de esta experiencia de laboratorio, se ha logrado verificar experimentalmente el funcionamiento de los circuitos rectificadores de media onda y de onda completa, así como el impacto crítico del filtrado capacitivo en la calidad de la señal de salida.
+
+El análisis del rectificador de media onda evidenció su ineficiencia sin filtrado debido a un elevado factor de rizado ($r \approx 1.21$), lo que lo hace inadecuado para alimentar dispositivos que requieran tensión estable. No obstante, la incorporación de capacitores permitió estabilizar la señal al aumentar la constante de tiempo ($\tau = RC$), reduciendo proporcionalmente la amplitud del rizado. Este efecto se validó con el comportamiento del cooler, cuya velocidad aumentó al incrementarse el valor medio de tensión y la potencia entregada a la carga.
+
+Por otro lado, la comparación con el rectificador de onda completa puso de manifiesto una mejora sustancial en la eficiencia energética. Al aprovechar ambos semiciclos de la señal, no solo se duplicó la frecuencia del rizado, sino que se obtuvo una tensión media significativamente mayor y un factor de rizado notablemente inferior en comparación con el de media onda para un mismo valor de capacitor. Las pequeñas diferencias entre los valores teóricos y experimentales se atribuyen a factores reales como la caída de tensión en los diodos y las tolerancias de los componentes.
+
+En conclusión, se ha validado que para el diseño de una fuente de alimentación de corriente continua eficiente, la configuración de onda completa combinada con un filtrado capacitivo de alta capacidad es la opción óptima, minimizando el rizado y maximizando la entrega de potencia útil a la carga.
